@@ -22,14 +22,8 @@ and open the template in the editor.
 
             <p>
             <h:form>
-                <h:panelGrid columns="2">
                 Nombre
                 <p:inputText value="#{usuario.nombre}"/>
-                Direccion
-                Calle <p:inputText value="#{direccion.calle}"/>
-                Número <p:inputText value="#{direccion.numero}"/>
-                
-                </h:panelGrid>
                 <p:commandButton value="Entrar" action="#{loginAgent.looging()}" ajax="false"/>
             </h:form>
             </p>
