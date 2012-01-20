@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      template="/WEB-INF/templates/layout.xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui" >
+
+
+    <ui:composition template="/WEB-INF/templates/layout.xhtml">
+        <ui:define name="tituloVentana">
+            Ejemplo Seam Erika
+        </ui:define>
+
+        <ui:define name="main">
+
+            <h1>Template Info</h1>
+
+            <p>
+            <h:form>
+                Nombre
+                <p:inputText value="#{usuario.nombre}"/>
+                <p:commandButton value="Entrar" action="#{loginAgent.looging()}" ajax="false"/>
+            </h:form>
+            </p>
+        </ui:define>
+    </ui:composition>
+</html>
+
