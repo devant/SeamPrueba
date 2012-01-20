@@ -18,14 +18,15 @@ and open the template in the editor.
 
         <ui:define name="main">
 
-            <h1>Comentarios</h1>
+            <h1>Template Info</h1>
 
-            <h:form>  
-                <p:panel header="Editor">
-                    <p:editor width="450"/>  
-                </p:panel>  
-            </h:form> 
-
+            <p>
+            <h:form>
+                Nombre
+                <p:inputText value="#{usuario.nombre}"/>
+                <p:commandButton value="Entrar" action="#{loginAgent.looging()}" ajax="false"/>
+            </h:form>
+            </p>
         </ui:define>
     </ui:composition>
 </html>
