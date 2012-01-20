@@ -10,7 +10,7 @@
         <from-view-id>*</from-view-id>
         <navigation-case>
             <from-outcome>otraPagina</from-outcome>
-            <to-view-id>/pagina2.xhtml</to-view-id>
+            <to-view-id>/registroDireccion.xhtml</to-view-id>
             <redirect/>
         </navigation-case>
         <navigation-case>
