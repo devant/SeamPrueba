@@ -15,17 +15,17 @@
         </navigation-case>
         <navigation-case>
             <from-outcome>pagina3</from-outcome>
-            <to-view-id>/pagina3.xhtml</to-view-id>
+            <to-view-id>/registroIntereses.xhtml</to-view-id>
             <redirect/>
         </navigation-case>
         <navigation-case>
             <from-outcome>pagina4</from-outcome>
-            <to-view-id>/pagina4.xhtml</to-view-id>
+            <to-view-id>/confirmacionDatos.xhtml</to-view-id>
             <redirect/>
         </navigation-case>
         <navigation-case>
             <from-outcome>pagina5</from-outcome>
-            <to-view-id>/pagina5.xhtml</to-view-id>
+            <to-view-id>/guardadoExitosamente.xhtml</to-view-id>
             <redirect/>
         </navigation-case>
         <navigation-case>
